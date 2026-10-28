@@ -1,0 +1,41 @@
+# Experiment 6 - Docker Commands
+
+# Check Docker version
+docker --version
+
+# Download Ubuntu image
+docker pull ubuntu:latest
+
+# List local images
+docker images
+
+# Create and run an interactive container
+docker run -it --name mycontainer ubuntu:latest bash
+
+# Check OS details inside the container
+cat /etc/os-release
+
+# Exit the container
+exit
+
+# List all containers
+docker ps -a
+
+# Stop the container
+docker stop mycontainer
+
+# Remove the container
+docker rm mycontainer
+
+# Start and stop an existing container
+docker start welcome-to-docker
+docker stop welcome-to-docker
+
+# Log in to Docker Hub
+docker login
+
+# Tag the Ubuntu image
+docker tag ubuntu:latest YOUR_USERNAME/exp6-ubuntu:latest
+
+# Push the image to Docker Hub
+docker push YOUR_USERNAME/exp6-ubuntu:latest
