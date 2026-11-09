@@ -77,6 +77,7 @@ public class Main {
 Create or replace this file: src/test/java/com/devops/AppTest.java
 
 
+
 package com.devops;
 
 import org.openqa.selenium.By;
@@ -107,12 +108,13 @@ public class AppTest {
         assertEquals("1", result);
     }
 
-    @After
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
+ @After
+public void tearDown() throws InterruptedException {
+    Thread.sleep(5000);
+    if (driver != null) {
+        driver.quit();
     }
+}
 }
 
 
