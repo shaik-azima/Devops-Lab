@@ -130,6 +130,7 @@ public class App {
             String title = driver.getTitle();
 
             System.out.println("Page Title: " + title);
+            Thread.sleep(10000);
 
             if (title.contains("Google")) {
                 System.out.println("TEST PASSED");
