@@ -20,17 +20,19 @@ public class MainTest {
     }
 
     @Test
-    public void testHomePageLoads() {
+    public void testHomePageLoads() throws InterruptedException {
         driver.get(
             "http://localhost:8080"
         );
 
         assertTrue(driver.getTitle().length() > 0);
         System.out.println("Homepage test passed");
+
+        Thread.sleep(5000);
     }
 
     @Test
-    public void testIncrementButtonExists() {
+    public void testIncrementButtonExists() throws InterruptedException {
         driver.get(
             "http://localhost:8080"
         );
@@ -40,6 +42,8 @@ public class MainTest {
         );
 
         System.out.println("Button test passed");
+
+        Thread.sleep(5000);
     }
 
     @After
