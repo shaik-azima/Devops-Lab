@@ -55,7 +55,7 @@ docker build -t exp12-app .
 ## 8. Run the Docker container
 
 ```bash
-docker run -d --name exp12-container -p 8080:80 exp12-app
+docker run -d --name exp12-container -p 8081:80 exp12-app
 ```
 
 ## 9. Check running containers
