@@ -82,6 +82,9 @@ cat target/surefire-reports/*.txt
 docker stop exp12-container
 ```
 
+open
+http://localhost:8081
+
 ## Expected result
 
 - Docker container runs the webpage.
