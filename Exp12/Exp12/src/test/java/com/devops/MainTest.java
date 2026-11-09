@@ -34,7 +34,7 @@ public class MainTest {
     @Test
     public void testIncrementButtonExists() throws InterruptedException {
         driver.get(
-            "http://localhost:8080"
+            "http://localhost:8081"
         );
 
         assertTrue(
