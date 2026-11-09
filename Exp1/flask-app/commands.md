@@ -2,7 +2,7 @@ cd flask-app
 
 pip3 install -r requirements.txt
 
-docker build --no-cache -t flask-app
+docker build --no-cache -t flask-app .
 
 docker run -p 5000:5000 flask-app
 
