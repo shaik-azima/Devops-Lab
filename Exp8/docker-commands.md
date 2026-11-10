@@ -71,3 +71,7 @@ kubectl delete -f deployment.yaml
 ```
 
 **Note:** Replace `YOUR_USERNAME` with your Docker Hub username before running the Docker commands. The Docker image must be pushed to Docker Hub and the image name in `deployment.yaml` must match.
+
+# Test the application
+# Open this address in your browser:
+http://localhost:30080
