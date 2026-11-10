@@ -30,9 +30,7 @@ cd Exp12
 </head>
 <body>
     <h1>Welcome to Experiment 12</h1>
-
-    <p>Testing a Containerized Application using Selenium</p>
-
+ <p>Testing a Containerized Application using Selenium</p>
     <button id="btn">Click Me</button>
 </body>
 </html>
