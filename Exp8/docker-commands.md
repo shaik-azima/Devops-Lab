@@ -75,3 +75,10 @@ kubectl delete -f deployment.yaml
 # Test the application
 # Open this address in your browser:
 http://localhost:30080
+
+Quick final verification
+Run these commands in your VS Code terminal:
+
+kubectl get deployments
+kubectl get pods
+kubectl get services
