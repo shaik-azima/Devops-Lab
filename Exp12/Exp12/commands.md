@@ -21,6 +21,22 @@ mvn archetype:generate \
 ```bash
 cd Exp12
 ```
+# index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exp12 Selenium Testing</title>
+</head>
+<body>
+    <h1>Welcome to Experiment 12</h1>
+
+    <p>Testing a Containerized Application using Selenium</p>
+
+    <button id="btn">Click Me</button>
+</body>
+</html>
+
 
 ## 3. Locate the Maven project file
 
