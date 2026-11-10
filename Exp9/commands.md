@@ -46,6 +46,14 @@ kubectl logs -l app=myapp --tail=10
 kubectl get deployment myapp
 kubectl get pods -l app=myapp
 kubectl get service myapp-service
+
+Test the service
+Once the pods are running, execute:
+kubectl port-forward service/myapp-service 8080:80
+
+
+Keep that terminal running. Open your browser and visit:
+http://localhost:8080
 ```
 
 ## Result
